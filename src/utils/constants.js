@@ -1,0 +1,7 @@
+export const REWARD_RULES = {
+  MIN_THRESHOLD: 50,
+  MAX_THRESHOLD: 100,
+  MULTIPLIER_LOW: 1,
+  MULTIPLIER_HIGH: 2,
+};
+export const TABLE_PAGE_SIZE = 6;

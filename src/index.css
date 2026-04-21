@@ -1,0 +1,59 @@
+@import 'tailwindcss';
+
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-size: 1.125rem;
+}
+.ant-table-thead > tr > th {
+  background-color: #4c88d5 !important;
+  color: #fff !important;
+  font-weight: 600;
+}
+
+.ant-table-column-sorter {
+  color: #fff !important;
+}
+
+.ant-table-column-sorter-up,
+.ant-table-column-sorter-down {
+  color: #fff !important;
+}
+
+.ant-table-column-sorter-up.active,
+.ant-table-column-sorter-down.active {
+  color: #445d87 !important;
+}
+/* SEARCH INPUT */
+.search-input .ant-input {
+  color: #111 !important;
+  font-weight: 500;
+}
+
+.search-input .ant-input::placeholder {
+  color: #666 !important;
+}
+
+/* SEARCH ICON */
+.search-input .ant-input-prefix {
+  color: #333 !important;
+}
+
+/* DATE RANGE PICKER */
+.date-input .ant-picker {
+  color: #111 !important;
+  font-weight: 500;
+}
+
+/* DATE TEXT */
+.date-input .ant-picker-input > input {
+  color: #111 !important;
+  font-weight: 500;
+}
+
+/* PLACEHOLDER */
+.date-input .ant-picker-input > input::placeholder {
+  color: #666 !important;
+}
